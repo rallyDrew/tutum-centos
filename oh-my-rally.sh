@@ -13,4 +13,6 @@ cd alm-webapp
 bundle install
 npm install
 npm install moment
+mkdir -p ~/.gradle/alm.groovy
+cp /alm.groovy ~/.gradle/alm.groovy
 ./gradlew

@@ -30,6 +30,7 @@ RUN gem update --no-ri --no-rdoc && \
 ADD set_root_pw.sh /set_root_pw.sh
 ADD run.sh /run.sh
 ADD oh-my-zsh.sh /oh-my-rally.sh
+ADD alm.groovy /alm.groovy
 RUN chmod +x /*.sh
 
 ENV AUTHORIZED_KEYS **None**
