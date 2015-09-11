@@ -5,8 +5,8 @@ RUN yum -y install openssh-server epel-release && \
     yum -y install pwgen && \
     yum -y install gcc g++ make automake autoconf
 
-RUN yum -y install curl-devel openssl-devel zlib-devel httpd-devel && \
-    yum -y install  apr-devel apr-util-devel sqlite-devel && \
+RUN yum -y install curl-devel openssl-devel zlib-devel && \
+    yum -y install apr-devel apr-util-devel sqlite-devel && \
     yum -y install java zsh git wget gcc-c++ ruby ruby-devel
 
 RUN rm -f /etc/ssh/ssh_host_ecdsa_key /etc/ssh/ssh_host_rsa_key && \
