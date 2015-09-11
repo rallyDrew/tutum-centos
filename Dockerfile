@@ -29,7 +29,7 @@ RUN gem update --no-ri --no-rdoc && \
 
 ADD set_root_pw.sh /set_root_pw.sh
 ADD run.sh /run.sh
-ADD oh-mh-zsh.sh /oh-my-zsh.sh
+ADD oh-my-zsh.sh /oh-my-zsh.sh
 RUN chmod +x /*.sh
 
 ENV AUTHORIZED_KEYS **None**
