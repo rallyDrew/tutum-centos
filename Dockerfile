@@ -16,7 +16,7 @@ RUN rm -f /etc/ssh/ssh_host_ecdsa_key /etc/ssh/ssh_host_rsa_key && \
     sed -i "s/UsePAM.*/UsePAM yes/g" /etc/ssh/sshd_config && \
     git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh && \
     chsh -s /bin/zsh && \
-    wget wget http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz && \
+    wget http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz && \
     tar zxf node-v0.10.35.tar.gz && \
     cd node-v0.10.35.tar.gz && \
     ./configure && \
