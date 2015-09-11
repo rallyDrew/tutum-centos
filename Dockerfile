@@ -18,7 +18,7 @@ RUN rm -f /etc/ssh/ssh_host_ecdsa_key /etc/ssh/ssh_host_rsa_key && \
     chsh -s /bin/zsh && \
     wget http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz && \
     tar zxf node-v0.10.35.tar.gz && \
-    cd node-v0.10.35.tar.gz && \
+    cd node-v0.10.35 && \
     ./configure && \
     make && \
     make install && \
