@@ -6,7 +6,7 @@ RUN yum -y install openssh-server epel-release && \
     yum -y install gcc g++ make automake autoconf && \
     yum -y install curl-devel openssl-devel zlib-devel && \
     yum -y install apr-devel apr-util-devel sqlite-devel && \
-    yum -y install java zsh git wget gcc-c++ ruby ruby-devel
+    yum -y install java zsh git wget gcc-c++ ruby ruby-devel rubygem-nokogiri
 
 RUN git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh && \
     chsh -s /bin/zsh && \
