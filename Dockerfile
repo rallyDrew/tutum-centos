@@ -3,7 +3,7 @@ MAINTAINER Drew Easley <DEasley@rallydev.com>
 
 RUN yum -y install openssh-server epel-release && \
     yum -y install pwgen && \
-    yum -y install gcc g++ make automake autoconf && \
+    yum -y install gcc g++ bzip2 make automake autoconf && \
     yum -y install curl-devel openssl-devel zlib-devel && \
     yum -y install apr-devel apr-util-devel sqlite-devel && \
     yum -y install java java-1.8.0-openjdk-devel zsh git wget gcc-c++ ruby ruby-devel rubygem-nokogiri
